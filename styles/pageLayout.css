@@ -1,0 +1,204 @@
+.navbar-fixed-top {
+    background-color: rgba(248,248,248, 0.8);
+}
+
+.arrow-up {
+    position:fixed;
+    bottom: 90%;
+    right: 0;
+}
+
+.arrow-down {
+    position:fixed;
+    bottom: 2%;
+    right: 0;
+}
+
+.arrow-button {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.arrow-down:hover .arrow-button {
+    background: rgba(0,0,0,0.3);
+}
+
+.arrow-up:hover .arrow-button {
+    background: rgba(0,0,0,0.3);
+}
+
+.home-page {
+    background-image: url("/images/home-back.jpg");
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    background-color: rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center center;
+    border: 1px black solid;
+}
+
+.home-title-box{
+    position: relative;
+    left: 60%;
+    top: 6%;
+    height: 10%;
+    width: 40%;
+}
+
+.home-title-name {
+    -webkit-filter: blur(0px);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 40px;
+    color: #fff;
+}
+.content {
+    padding: 50px;
+    background: #F2F2F2;
+}
+
+/* Menu figures are the images grid which act as a menu and navigate to the selected page
+    These to be implemented by base container.
+    - thumbBack is the container for the caption which fills all space avaialbe within container and implements animation to change the opacity and color
+*/
+
+
+.menu-figures .thumbBack {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 25px;
+    opacity: 0;
+    border: 2px solid #fff;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+}
+/* styling for the link caption, it should fill 100% of the available in the container space
+*/
+.linkToPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Caption is implemented by paragraph <p> and is used to fill all available space and allign in the middle of the container  */
+.thumbCaption {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    vertical-align: middle;
+    top: 50%;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    
+}
+
+.menu-figures .thumbBack:hover {
+    opacity: 1;
+}
+
+.workThumb {
+    background-image: url("/images/work.png");
+    background-size: cover;
+    background-position: center center;
+    border: 1px black solid;
+}
+
+.sportThumb {
+    background-image: url("/images/sport.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: 1px black solid;
+}
+
+.developerThumb {
+    background-image: url("/images/developer.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: 1px black solid;
+}
+
+.experienceThumb{
+    background-image: url("/images/experience.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 1px black solid;
+}
+
+#about {
+    border: 2px solid black;
+}
+
+#sectionTitle {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+    color: #fff;
+}
+
+.work-page #pageTitle {   
+    font-family: 'Montserrat', sans-serif;
+    top: 20px;
+    font-size: 30px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#thumbDescription {
+    position: absolute;
+    top: 35%;
+    width: 80%;
+    left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+    color: #fff;
+}
+
+.horizontal-line {
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
+
+/*.imageLink {
+    position: relative;
+}*/
+
+/*.imageLink:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0; left: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}*/
+
+/*.imageLink:hover:after  {
+    opacity: 1;
+}*/
